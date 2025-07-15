@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(147, 223, 33);
+    height: 80px;
+    
+}
+h1{
+    text-align: center;
+    padding: 25px 0px;
+}
+.hero{
+    background-image: url(img/hero2.jpg);
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    
+}
+.input{
+    padding-left: 450px;
+    padding-top: 350px;
+
+}
+.select{
+    padding-left: 700px;
+    padding-top: 20px;
+}
+#search-bar{
+    height: 50px;
+    width: 600px;
+    border-radius: 20px;  
+    padding-left: 10px; 
+    font-size: 20px;
+}
+#varities{
+    height: 35px;
+    width: 100px;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 10px;
+}
+.recipes{
+    padding: 50px;
+    text-align: center;
+    background-color: rgb(198, 239, 189);
+}
+h2{
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+.recipe-container{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    
+}
+.recipe-card{
+    justify-items: center;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-rows: 1fr 0.5fr;
+    background-color: aliceblue;
+    height: 335px;
+    width: 276px;
+    border-radius: 20px;
+    box-shadow: 5px 10px 10px rgba(0,0,0,0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.recipe-card:hover{
+    transform: translateY(-8px);
+    box-shadow: 5px 10px 10px rgb(149, 240, 14);
+}
+#food4{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.recipe-card img{
+    border-radius: 20px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.recipe-content h3{
+    font-size: 22px;
+}
+.recipe-content p{
+    color: rgb(77, 74, 74);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.recipe-content h4 a{
+    text-decoration: none;
+    color: green;
+    font-size: 17px;
+}
+.recipe-content h4 a:hover{
+    text-decoration: underline;
+    font-size: 18px;
+}
+footer{
+    height: 70px;
+    background-color: rgb(52, 51, 51);
+    color: white;
+    text-align: center;
+}
+footer p{
+    padding: 30px;
+}

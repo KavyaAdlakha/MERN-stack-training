@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="api.css">
+</head>
+<body>
+    <div id="box">
+        <h1>Weather API</h1>
+         <label for="">Latitude :</label>
+        <input type="text" id="lat" placeholder="enter latitude">
+        <br>
+        <label for="">Longitude :</label>
+        <input type="text" id="lon" placeholder="enter longitude">
+        <br>
+        <button onclick="getWeather()">Fetch API</button>
+        <br>
+        <h4 style="display: inline-block;">Country :</h4>
+        <h4 id="cou" style="display: inline-block;"></h4>
+        <br>
+        <h4 style="display: inline-block;">City :</h4>
+        <h4 id="cit" style="display: inline-block;"></h4>
+        <br>
+        <h4 style="display: inline-block;">Temprature :</h4>
+        <h4 id="temp" style="display: inline-block;"></h4>
+        <br>
+        <h4 style="display: inline-block;">Wind Speed :</h4>
+        <h4 id="ws" style="display: inline-block;"></h4>
+        <br>
+        <h4 style="display: inline-block;">Humidity :</h4>
+        <h4 id="hum" style="display: inline-block;"></h4>
+        
+    </div>
+    <script src="api.js"></script>
+</body>
+</html>

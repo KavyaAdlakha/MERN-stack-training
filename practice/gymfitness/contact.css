@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+    padding: 20px 10%;
+    background-color: #222;
+    height: 95px;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+}
+h1{
+    margin-right: 480px;
+    font-size: 50px;
+    color: white;
+}
+.navbar{
+    position: fixed;
+    right: 50px;
+}
+.nav-links{
+    list-style: none;
+   
+}
+.nav-links li{
+    display: inline-block;
+    padding: 0 10px;
+    
+    
+}
+.nav-links li a{
+    transition: all 1s ease 0s;
+    
+}
+.nav-links li a:hover{
+    font-size: 18px;
+    text-decoration: underline;
+    color: rgb(10, 62, 217);
+}
+.contact-section {
+  padding: 50px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+}
+
+.contact-section h2 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.contact-section p {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.contact-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  padding: 12px 20px;
+  background-color: #0099cc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #0077aa;
+}
+
+.contact-info h3 {
+  color: #0099cc;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+}
+
+.social-links a {
+  color: #0099cc;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}
+.site-footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 15px 20px;
+  font-size: 0.9rem;
+}
+
+.site-footer p {
+  margin: 0;
+  letter-spacing: 0.5px;
+}
+
+
+
