@@ -1,10 +1,10 @@
 
 import './App.css';
-
+import UseEffect from './UseEffect';
 function App() {
-  return (
-   <h1>hello</h1>
-  );
+  return(
+    <UseEffect/>
+  )
 }
 
 export default App;
