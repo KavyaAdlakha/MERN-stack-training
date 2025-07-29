@@ -1,0 +1,3 @@
+in node js fs is equal to file system and it will denote as ("fs")
+
+for make a new file we use writefilesync method. fiirst we called fs file then (.) fullstop then we use writefilesync then inside it we write our file our new file name and what the conntent we want inside it
