@@ -1,4 +1,5 @@
 {
+  
   "name": "day2",
   "version": "1.0.0",
   "description": "Day2 of node",
@@ -6,11 +7,13 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  
   },
   "author": "kavya",
   "license": "ISC",
   "dependencies": {
     "chalk": "^5.4.1",
+    "nodemon": "^3.1.10",
     "validator": "^13.15.15"
   }
 }
