@@ -1,7 +1,7 @@
 import { MongoClient } from 'mongodb';
 
 // Correct connection string (ensure username and password are correct)
-const uri = "mongodb+srv://adlakhakavya8:2312330@cluster0.jteemdk.mongodb.net/";
+const uri = "mongodb+srv://adlakhakavya8:@cluster0.jteemdk.mongodb.net/";
 
 async function connectToMongoDB() {
   try {
